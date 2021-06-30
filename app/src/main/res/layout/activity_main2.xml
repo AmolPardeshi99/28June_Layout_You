@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <Button
+        android:id="@+id/BtnNrupal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nrupal"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:paddingHorizontal="40sp"
+        android:background="#DE1717"
+        android:textAllCaps="false"
+        />
+
+    <Button
+        android:id="@+id/BtnDev"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dev"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:layout_alignParentRight="true"
+        android:paddingHorizontal="40sp"
+        android:background="#0E0481"
+        android:textAllCaps="false"
+        />
+
+    <Button
+        android:id="@+id/BtnAman"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aman"
+        android:textSize="20sp"
+        android:textAllCaps="false"
+        android:textColor="#ffffff"
+        android:layout_marginTop="250sp"
+        android:paddingHorizontal="37sp"
+        android:paddingVertical="20sp"
+        android:background="#920495"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rahul"
+        android:textSize="20sp"
+        android:textAllCaps="false"
+        android:textColor="#ffffff"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:paddingHorizontal="45sp"
+        android:background="#3F0D66"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Prateek"
+        android:textSize="21sp"
+        android:textAllCaps="false"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120sp"
+        android:paddingVertical="20sp"
+        android:paddingHorizontal="40sp"
+        android:background="#B4A311"
+        />
+
+
+    
+
+</RelativeLayout>
